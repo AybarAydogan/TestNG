@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CrossBrowser testler">
+
+    <test name="Chrome ile calisicak testler">
+        <parameter name="crossBrowser" value="chrome"></parameter>
+
+        <packages>
+            <package name="tests.day17_crossBrowserCalisicakTestler"></package>
+        </packages>
+    </test>
+
+    <test name="Firefox ile calisicak testler">
+        <parameter name="crossBrowser" value="firefox"></parameter>
+
+        <packages>
+            <package name="tests.day17_crossBrowserCalisicakTestler"></package>
+        </packages>
+    </test>
+
+
+
+</suite>
